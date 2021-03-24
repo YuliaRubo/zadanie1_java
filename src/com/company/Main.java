@@ -14,6 +14,16 @@ public class Main {
         else
             monthBiggerDay = false;
         System.out.println ("Месяц моего рождения больше даты рождения:"+" " +  monthBiggerDay);
+        char ch1, ch2, ch3;
+
+        ch1 = 'Ю';
+        ch2 = 'л';
+        ch3 = 'я';
+        System.out.println("Массив с моим именем: " + ch1 + ch2 + ch3);
+        double myAge = 31;
+        double partYear = 2.0 / 12.0;
+        double sum1 = myAge + partYear;
+        System.out.println("Мне " + sum1 + "лет");
 
         }	// write your code here
     }
